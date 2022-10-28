@@ -1,0 +1,31 @@
+set -o vi
+
+export PATH=$PATH:$HOME/bin
+
+alias psag="ps -aux | grep "
+alias hg="history | grep"
+alias gs="git status"
+alias gst="git stash"
+alias gstl="git stash list"
+alias gstp="git stash pop"
+alias gstc="git stash clear"
+alias gd="git diff"
+alias ga="git add"
+alias gaa="git add ."
+alias gcm="git commit -m"
+alias gpsfo="git push -f origin"
+alias gpso="git push origin"
+alias gpl="git pull"
+alias gplo="git pull origin"
+alias gc="git checkout"
+alias gl="git log"
+alias grei="git rebase -i "
+alias v="nvim"
+alias bin="cd ~/bin"
+alias projects="cd ~/projects"
+alias bashrc="v ~/.bashrc"
+alias vimrc="v ~/.config/nvim/init.vim"
+alias i3rc="v ~/.config/i3/config"
+alias tmuxrc="v ~/.tmux.conf"
+
+export EDITOR="/usr/bin/nvim"
